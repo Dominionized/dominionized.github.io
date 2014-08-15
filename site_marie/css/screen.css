@@ -1,0 +1,75 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,400italic);
+/* line 13, ../sass/screen.scss */
+body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d6264f;
+  color: white;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+/* line 12, ../../../.gem/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 21, ../sass/screen.scss */
+header {
+  text-align: center;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+/* line 24, ../sass/screen.scss */
+header h1 {
+  font-size: 4em;
+  font-weight: 300;
+  margin-top: 1em;
+  margin-bottom: 0.05em;
+}
+/* line 31, ../sass/screen.scss */
+header h2 {
+  font-size: 2em;
+  font-weight: 300;
+  margin-top: 0.3em;
+  text-transform: uppercase;
+}
+/* line 37, ../sass/screen.scss */
+header #header-text {
+  width: 73.68421%;
+  float: right;
+  margin-right: 0;
+}
+
+/* line 42, ../sass/screen.scss */
+nav {
+  color: white;
+  font-size: 1.5em;
+}
+/* line 45, ../sass/screen.scss */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* line 48, ../sass/screen.scss */
+nav ul li {
+  display: inline-block;
+  padding: 0.5em;
+}
+/* line 53, ../sass/screen.scss */
+nav ul li:hover {
+  background-color: #0074d9;
+}
+
+/* line 59, ../sass/screen.scss */
+#image-violin {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 21.05263%;
+  float: left;
+  margin-right: 5.26316%;
+}

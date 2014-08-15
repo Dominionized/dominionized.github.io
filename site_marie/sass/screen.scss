@@ -1,0 +1,63 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "susy";
+@import "breakpoint";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,400italic);
+
+$header-font: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+$primary-color: #d6264f;
+$secondary-color: #0074D9;
+
+body {
+	@include container(1000px);
+	background-color: #d6264f;
+	color: white;
+	font-family: $header-font;
+	
+}
+
+header{
+	text-align: center;
+	font-family: $header-font;
+	h1{
+		font-size: 4em;
+		font-weight: 300;
+		margin-top: 1em;
+		margin-bottom: 0.05em;
+	}
+
+	h2{
+		font-size: 2em;
+		font-weight: 300;
+		margin-top: 0.3em;
+		text-transform: uppercase;
+	}
+	#header-text{
+		@include span(3 at 2 of 4);
+	}
+}
+
+nav{
+	color: white;
+	font-size: 1.5em;
+	ul{
+		list-style-type: none;
+		padding: 0;
+		li{
+			display: inline-block;
+			padding: 0.5em;
+		}
+
+		li:hover{
+			background-color: $secondary-color;
+		}
+	}
+}
+
+#image-violin{
+	display: block;
+	margin: 0 auto 0 auto;
+	@include span(1 of 4);
+}
